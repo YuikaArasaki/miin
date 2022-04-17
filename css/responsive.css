@@ -1,0 +1,311 @@
+/* ---------------------------------
+トップ
+----------------------------------*/
+/* PC時には非表示 */
+.hamburger-button{
+  display: none;
+}
+/* スマホ表示時 */
+@media screen and (max-width: 400px) {
+  .hamburger-button {
+    display: flex;
+  }
+  
+/* メイン */
+header .top{
+  position: static;
+}
+header .main-images{
+  margin-top: 0px;
+  position: static;
+  width: auto;
+}
+.top{
+  height: auto;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+header h1{
+  font-size: 28px;
+margin-bottom: 50px;
+}
+.pc-nav{
+  display: none;
+}
+.main-images img{
+  height: 200px;
+}
+/* メイン　コンセプト */
+main .h1-concept h1{
+  margin-bottom: 50px;
+}
+main .concept{ 
+  width: 360px;
+  flex-direction: column-reverse;
+  margin-bottom: 50px;
+}
+main .images-concept img{
+  width: 100%;
+  margin: 0 auto;
+}
+/* メイン　メニュー */
+main .menu{
+  width: 360px;
+  display: block;
+  margin-bottom: 100px;
+}
+main .menu-box{
+  width:360px;
+  left: 0;
+}
+main .menu section .images-menu img{
+  width: 360px;
+  margin: 0 auto;
+}
+main .right{
+  width: 300px;
+  margin-left: 0;
+}
+/* メイン　ギャラリー */
+main .gallery h1{
+  margin-bottom: 20px;
+}
+main .box{
+  width: auto;
+margin: 0 auto 50px auto;
+}
+.box img{
+  width: 150px;
+  height: 100px;
+  margin: 20px;
+ }
+.wrap-img-hover-04 figure figcaption{
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.wrap-img-hover-04 figure figcaption p{
+  font-size: 12px;
+}
+/* メイン　アバウト */
+main .about{
+  width: auto;
+display: block;
+margin: 0 auto 200px auto;
+}
+main .about-box{
+  width: 360px;
+  margin: 0 auto;
+}
+main .left2{
+  margin-left: 30px;
+}
+main iframe{
+  width: 360px;
+  margin: 0 auto;
+  top: 0;
+  left: 10px;
+}
+/* メイン　フッター　コンタクト */
+footer{
+  width: 360px;
+  display: block;
+ flex-direction: column;
+  background-color: #333;
+  color: #fff;
+  position: relative;
+  padding-top: 300px;
+  padding-left: 5px;
+  margin: 0 auto;
+}
+footer .contact{
+  width:80%;
+  line-height: 2.0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+}
+footer .footer-box{
+  text-align: center;
+}
+footer .contact h1{
+  margin-bottom: 10px;
+  text-align: center;
+}
+footer .contact p a{
+  font-size: 14px;
+}
+footer .contact .instagram-position{
+  display: block;
+  margin-left: 0px;
+}
+footer .contact .contact-box{
+  display: block;
+}
+/* メイン　フッター*/
+.text-line,.text-line2{
+  display: none;
+}
+.footer-box{
+}
+.footer-box h1{
+  width: 360px;
+  margin: 0 auto;
+}
+.footer-box p{
+  width: 360px;
+  margin: 0 auto;
+}
+/* ---------------------------------
+コンセプトページ
+----------------------------------*/
+#concept main .concept-box{
+margin: 0 auto 50px auto;
+}
+#concept main .concept-box img{
+  width: 190px;
+  height: auto;
+  margin-top: 0;
+}
+#concept main .concept-box h2{
+  display: block;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding: 30px;
+}
+#concept main .sentense{
+  width: 360px;
+  height: 200px;
+  display: flex;
+  margin-bottom: 250px;
+}
+#concept main .sentense p{
+  line-height: 1.5;
+  top: 250px;
+  left: 0;
+text-align: left;
+}
+#concept main section{
+  width: 360px;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto 10px auto;
+}
+#concept main .section-page{
+  width: auto;
+display: block;
+margin-bottom: 50px;
+}
+/* ---------------------------------
+メニューページ
+----------------------------------*/
+#menu main .menu-page{
+  display: flex;
+  margin: 0 auto 50px auto;
+}
+#menu main .menu-page img{
+  width: 210px;
+  height: 130px;
+  margin-top: 0;
+}
+#menu main .menu-page1{
+  width: 100px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0;
+  padding: 50px;
+  margin-top: 0;
+}
+#menu main .menu-page h2{
+margin-bottom: 10px;
+}
+#menu main .menu-page2{
+  display: block;
+  }
+  #menu main .nail,.eye{
+    width: 360px;
+    margin: 0 auto 100px auto;
+  }
+  #menu main .nail th{
+    width: 360px;
+    margin: 0 auto;
+  }
+  #menu main .nail td{
+    width: auto;
+  }
+  #menu main .eye th{
+    width: 360px;
+    }
+    #menu main .eye td{
+      width: auto;
+      display: block;
+    }
+/* ---------------------------------
+アバウトページ
+----------------------------------*/
+#about main .about-page h2{
+  display: block;
+  margin-left: 0px;
+  padding: 30px;
+}
+#about main .about-page img{
+  width: 210px;
+  height: 130px;
+  margin-top: 0;
+}
+#about main .about-page{
+  margin-bottom: 0px;
+}
+#about main .introduce{
+  display: block;
+}
+#about main section{
+margin: 0 auto 50px auto;
+}
+#about main section .job{
+  width: 360px;
+  margin-right: auto;
+  margin-left: 15px;
+}
+#about main section .name{
+  margin-left: 15px;
+margin-bottom: 20px;
+}
+#about main section p{
+margin: 0 auto;
+padding: 15px;
+}
+#about main section img{
+  width: 360px;
+  margin-left: 15px;
+}
+/* ---------------------------------
+コンタクトページ
+----------------------------------*/
+#contact main .contact-page h2{
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 30px;
+}
+#contact main .contact-page img{
+  width: 190px;
+  height: auto;
+  margin-top: 0;
+}
+#contact main .instagram-button{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+}
+#contact main .instagram-button img{
+ padding: 20px;
+}
+}
